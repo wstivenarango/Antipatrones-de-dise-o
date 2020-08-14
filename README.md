@@ -1,4 +1,5 @@
 # **ANTIPATRONES DE DISEÑO**
+Los anti-patrones, también llamados trampas, son ejemplos bien documentados de malas soluciones para problemas. Se estudian a fin de poderlos evitar en el futuro, y en su caso, para que su presencia pueda ser reconocida fácilmente al investigar sistemas disfuncionales durante una auditoria.
 ___
 ## **CODIGO MUERTO**
 
