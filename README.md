@@ -1,4 +1,4 @@
-# **ANTIPATRONES DE DISEÑO**
+## **ANTIPATRONES DE DISEÑO**
 
 una buena estructura de software es esencial para la extensión y el mantenimiento del sistema. El desarrollo de software es una actividad caótica, por lo tanto, la estructura implementada de los sistemas tiende a alejarse de la estructura planificada según lo determinado por la arquitectura, el análisis y el diseño.
 
@@ -6,7 +6,7 @@ La refactorización de software es un enfoque eficaz para mejorar la estructura 
 
 La estructura cambia porque los programadores aprenden restricciones y enfoques que alteran el contexto de las soluciones codificadas. Cuando se utiliza correctamente, la refactorización es ua actividad natural en el proceso de programación.
 
-## **Codigo muerto**
+# **Codigo muerto**
 
 Este antipatron es la acumulacion de clases que no cumplen con una funcionalidad dentro del sistema dificultando su entendimiento para futuros desarrollos.
 
@@ -71,7 +71,7 @@ Solo hay una forma infalible de prevenir este antipatrón:
 
 ## **Spaghetti**
 
-## 1.  Spaghetti Code :spaghetti:
+# Spaghetti Code
 Bien, muy posiblemente nos podremos haber encontrado con código spaghetti y nunca nos dimos cuenta, personalmente, si me lo he encontrado y no tenia ni idea de que lo pudiera clasificar de esa forma. Para lograr entenderlo imaginemos un plato de spaghetti... está todo revuelto, ¿verdad? y muy posiblemente el plato este sucio, sucio por la salsa, de pronto por la grasa, si este tiene albóndigas también, en fin... nos encontramos con tremendo lio, además, tratemos de separarlo y entenderlo, con esto ultimo me refiero a deducir de donde viene cada spaguetti, con quien se relaciona. Espero mediante esta análogia ya te este imaginando a que se refiere el código spaghetti.
 
 
@@ -79,7 +79,7 @@ Bien, muy posiblemente nos podremos haber encontrado con código spaghetti y nun
 Bien, el código spagghetti se caracteriza por que, es eso... un plato de spaghetti, es decir, podemos encontrarnos en un mismo archivo, diferente lenguajes juntos, clases mal organizadas, rompiendo principios de diseño de forma absurda, en fin, ni siquiera el código spaghetti lo podemos considerar una mala practica de programación, por que muchos programadores afirman que es peor que esto. Por ejemplo, nos encontramos con un diseño de una pagina web, y al analizar su codigo nos damos cuenta de que el programador situó tanto sentencias sql, como estilos, sentencias de javascript y html, todo en un mismo archivo jsp por ejemplo, todo esto obedece a clasificarse como codigo spaghetti.
 
 No es solo esto, además el código se vuelve difícil de mantener, ya que, en primer lugar puede costar entenderlo y en segundo lugar, todo esta tan acoplado que un mínimo cambio dañaría por completo el software.
-### 1.1 ¿Como podemos evitar esto?
+### ¿Como podemos evitar esto?
 
 Principalmente, realizando un buen diseño de software desde el principio, una buena técnica para evitar este tipo de código es usar patrones y principios de diseño, haciendo un software con una alta cohesión, es decir que cada modulo tenga mucha relación con sus funcionalidades y mantenga una sola responsabilidad y por otro lado que este código tenga un acoplamiento bajo, es decir que la relación que exista entre sus módulos no sea mucha, esto para evitar muchas dependencias en el código.
 
