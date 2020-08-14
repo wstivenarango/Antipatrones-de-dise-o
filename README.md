@@ -59,7 +59,7 @@ Una clase con 60 o más atributos y métodos usualmente indica la presencia de e
 * En proyectos iterativos, los desarrolladores tienden a agregar pequeñas piezas de funcionalidad a las clases existentes, en lugar de agregar nuevas clases, o revisar y refactorizar la jerarquía de clases para una asignación de responsabilidades más efectiva.
 * Desastre ya especificado. A veces, el anti-patrón resulta de la forma en que se especifican los requisitos. Si los requisitos dictan una solución de tipo procedimental, entonces se pueden hacer compromisos arquitectónicos durante el análisis de requisitos que son difíciles de cambiar. Definir la arquitectura del sistema como parte del análisis de requisitos suele ser inapropiado.
 
-###**¿Como resolverlo?**
+### **¿Como resolverlo?**
 Al igual que la mayoría de los antipatrones que se ubican en esta sección, la solución involucra una forma de refactoring. La clave es mover comportamientos afuera del Blob. Puede ser apropiado reubicar comportamientos hacia de las clases que encapsulan datos de forma que esos objetos sean más capaces y The Blob menos complejo.
 
  ## **GoldenHammer**
