@@ -1,6 +1,6 @@
 # **ANTIPATRONES DE DISEÑO**
 ___
-## **Codigo muerto**
+## **CODIGO MUERTO**
 
 Este antipatron es la acumulacion de clases que no cumplen con una funcionalidad dentro del sistema dificultando su entendimiento para futuros desarrollos.
 
@@ -25,10 +25,9 @@ Cuando el código está en continuo cambio es necesario quitar las partes desact
 
 Una vez aparece este antipatrón, la solución es realmente costosa ya que es difícil saber cuales son los componentes que se utilizan en un código que apenas conoces.
 
-
-## Spaghetti
+___
+## **SPAGHETTI**
 Bien, muy posiblemente nos podremos haber encontrado con código spaghetti y nunca nos dimos cuenta, personalmente, si me lo he encontrado y no tenia ni idea de que lo pudiera clasificar de esa forma. Para lograr entenderlo imaginemos un plato de spaghetti... está todo revuelto, ¿verdad? y muy posiblemente el plato este sucio, sucio por la salsa, de pronto por la grasa, si este tiene albóndigas también, en fin... nos encontramos con tremendo lio, además, tratemos de separarlo y entenderlo, con esto ultimo me refiero a deducir de donde viene cada spaguetti, con quien se relaciona. Espero mediante esta análogia ya te este imaginando a que se refiere el código spaghetti.
-
 
 
 Bien, el código spagghetti se caracteriza por que, es eso... un plato de spaghetti, es decir, podemos encontrarnos en un mismo archivo, diferente lenguajes juntos, clases mal organizadas, rompiendo principios de diseño de forma absurda, en fin, ni siquiera el código spaghetti lo podemos considerar una mala practica de programación, por que muchos programadores afirman que es peor que esto. Por ejemplo, nos encontramos con un diseño de una pagina web, y al analizar su codigo nos damos cuenta de que el programador situó tanto sentencias sql, como estilos, sentencias de javascript y html, todo en un mismo archivo jsp por ejemplo, todo esto obedece a clasificarse como codigo spaghetti.
@@ -38,8 +37,8 @@ No es solo esto, además el código se vuelve difícil de mantener, ya que, en p
 
 Principalmente, realizando un buen diseño de software desde el principio, una buena técnica para evitar este tipo de código es usar patrones y principios de diseño, haciendo un software con una alta cohesión, es decir que cada modulo tenga mucha relación con sus funcionalidades y mantenga una sola responsabilidad y por otro lado que este código tenga un acoplamiento bajo, es decir que la relación que exista entre sus módulos no sea mucha, esto para evitar muchas dependencias en el código.
 
-
-## Blob
+___
+## **BLOB**
 
 Este antipatron ocurre cuando un programador no conoce el paradigma orientado a objetos y tiende a poner todos los atributos y objetos en la misma clase, es tambien conocida como la clase Dios.
 
@@ -61,8 +60,9 @@ Una clase con 60 o más atributos y métodos usualmente indica la presencia de e
 
 ### **¿Como resolverlo?**
 Al igual que la mayoría de los antipatrones que se ubican en esta sección, la solución involucra una forma de refactoring. La clave es mover comportamientos afuera del Blob. Puede ser apropiado reubicar comportamientos hacia de las clases que encapsulan datos de forma que esos objetos sean más capaces y The Blob menos complejo.
+___
 
- ## **GoldenHammer**
+ ## **GOLDENHAMMER**
 
 Este AntiPatron resulta en la aplicación incorrecta de una herramienta o concepto favorecido. Los desarrolladores y gerentes se sienten cómodos con un enfoque existente y no están dispuestos a aprender y aplicar uno que se adapte mejor. 
 
