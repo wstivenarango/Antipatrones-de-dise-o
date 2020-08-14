@@ -1,5 +1,5 @@
 # **ANTIPATRONES DE DISEÑO**
-
+___
 ## **Codigo muerto**
 
 Este antipatron es la acumulacion de clases que no cumplen con una funcionalidad dentro del sistema dificultando su entendimiento para futuros desarrollos.
